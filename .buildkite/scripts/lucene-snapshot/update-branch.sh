@@ -10,6 +10,7 @@ fi
 git config --global user.name elasticmachine
 git config --global user.email '15837671+elasticmachine@users.noreply.github.com'
 
+git checkout lucene_snapshot
 git fetch origin main
 git merge origin/main
 git push origin lucene_snapshot
