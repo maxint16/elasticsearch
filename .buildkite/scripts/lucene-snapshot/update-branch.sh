@@ -7,6 +7,8 @@ if [[ "$BUILDKITE_BRANCH" != "lucene_snapshot" ]]; then
   exit 1
 fi
 
+echo --- Updating lucene_snapshot branch with main
+
 git config --global user.name elasticmachine
 git config --global user.email '15837671+elasticmachine@users.noreply.github.com'
 
